@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTintMode="screen"
+    tools:context="com.example.united.login2.Home">
+
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@color/colorNavIcon"
+        android:gravity="center_horizontal"
+        android:text="Reject"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@color/colorNavIcon"
+        android:gravity="center_horizontal"
+        android:text="Accept"
+        android:textStyle="bold" />
+</LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:visibility="invisible"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <com.lorentzos.flingswipe.SwipeFlingAdapterView
+        android:id="@+id/frameone"
+        android:layout_width="wrap_content"
+        android:layout_height="460dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="60dp"
+        android:elevation="2dp"
+
+        android:visibility="visible"
+        app:rotation_degrees="15.5"
+        tools:layout_editor_absoluteY="191dp" />
+
+
+</android.support.design.widget.CoordinatorLayout>

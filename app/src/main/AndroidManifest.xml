@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.united.login2">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/pundi1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/pundi1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".login" />
+        <activity android:name=".Setting" />
+        <activity
+            android:name=".UserDetail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".OppositeUser" />
+        <activity android:name=".Matches.MatchActivity" />
+        <activity android:name=".Chats.ChatActivity" />
+        <activity android:name=".Chats.Chat2Activity" />
+        <activity
+            android:name=".HandlerFragment"
+            android:label="@string/title_activity_handler_fragment">
+
+        </activity>
+    </application>
+
+</manifest>

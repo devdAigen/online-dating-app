@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pundi</string>
+    <string name="title_activity_home">Home</string>
+    <string name="menu_Home">Home</string>
+    <string name="menu_matches">Matches</string>
+    <string name="menu_chats">Chat</string>
+    <string name="menu_profile">Profile</string>
+    <string name="title_activity_handler_fragment">Pundi</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>

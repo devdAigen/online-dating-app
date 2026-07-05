@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:backgroundTint="@color/cardview_light_background"
+
+        android:elevation="12dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="4dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/matchprofile"
+            android:layout_width="75sp"
+            android:layout_height="75sp"
+
+            android:src="@drawable/maledp"
+            app:civ_border_color="@color/cardview_light_background"
+            app:civ_border_width="3dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/MatchName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="matchers Name"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Matchid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="matchers id"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Age : " />
+
+                <TextView
+                    android:id="@+id/Matchage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="age" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="Heartbreaks : " />
+
+                <TextView
+                    android:id="@+id/heartbreak"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="Crush : " />
+
+                <TextView
+                    android:id="@+id/crush"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
